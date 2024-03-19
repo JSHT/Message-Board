@@ -69,6 +69,7 @@ const MainPage = () => {
                     Submit
                 </button>
             </form>
+            <p>當前參觀人數一共有 {comments.length} 人</p>
             <div>
                 <ul className='max-w-md space-y-1 list-disc list-inside dark:text-gray-400'>
                     {comments.map((comment, index) => (
